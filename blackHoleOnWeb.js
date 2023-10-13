@@ -1,4 +1,6 @@
 alert('Black Hole on Web -w12iscool');
+let userName = prompt("What is the name of your black hole?");
+let color = prompt("What color is your black hole?")
     let circle = document.createElement('div');
     circle.style.cssText = `
         width: 100px;
@@ -17,6 +19,8 @@ alert('Black Hole on Web -w12iscool');
         color: rgb(255, 255, 255);
         border-radius: 50%;
     `;
+    circle.style.backgroundColor = `${color}`;
+    circle.textContent = `${userName}`;
     document.body.appendChild(circle);
 
     let velocityX = 0;

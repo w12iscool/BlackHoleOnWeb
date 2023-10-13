@@ -1,4 +1,4 @@
-alert('Black Hole on Web');
+alert('Black Hole on Web -w12iscool');
     let circle = document.createElement('div');
     circle.style.cssText = `
         width: 100px;
